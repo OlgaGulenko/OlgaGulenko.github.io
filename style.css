@@ -339,7 +339,7 @@ html, body{
   height: 453px;
   margin-left: 3%;
   width: 45%;
-  background-color: rgba(0,0,0,1);
+  background-color: rgba(0,0,0,0);
 }
 .doc-info{
   position: absolute;
@@ -641,7 +641,6 @@ html, body{
 
 .contactinfo-footer{
   position: absolute;
-  /*background-color: rgba(0,0,0,0.1);*/
   width: 20%;
   height: 100%;
   margin-left:30%;
@@ -651,17 +650,13 @@ html, body{
   margin-bottom: 2%;
   margin-top: 2%;
   color: rgba(255,255,255,1);
-  /*font-family:'PF BeauSans W15 Light' ,'fallback-font';*/
-  /*font: url("pfbeausanspro-light.ttf")format("truetype");*/
 }
-#primary-menu-footer {
+/*#primary-menu-footer {
   font-style: bold;
   background-color: rgba(255,255,255,1);
-  /*margin: 10 10;*/
   top:100px;
   margin-left:50%;
   height: 20px;
-  /*width: 100%;*/
   text-align: center;
 }
 #primary-menu-footer > ul{
@@ -669,7 +664,6 @@ html, body{
   margin: 0;
 }
 #primary-menu-footer > ul > li{
-  /*position: absolute;*/
   display: inline-block;
   list-style: none;
   padding: 0;
@@ -680,7 +674,6 @@ html, body{
   margin-right: 0;
 }
 #primary-menu-footer > ul > li a {
-  /*position: absolute;*/
   color: rgba(0,0,0,0.7);
   text-decoration: none;
   font-family: 'PF BeauSans Pro Bold', sans-serif;
@@ -692,13 +685,11 @@ html, body{
 #primary-menu-footer > ul > li> i {
   display: inline-block;
   font: normal normal normal 12px/1 FontAwesome;
-  /*font-size: small;*/
   text-rendering: auto;
-  /*text-rendering: auto;*/
   -webkit-font-smoothing: antialiased;
   transform: translate(0, 0);
 
-}
+}*/
 
 @media screen and (max-width: 1440px) {
   .menu{
