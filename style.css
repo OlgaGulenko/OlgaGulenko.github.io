@@ -111,15 +111,25 @@ html, body{
   height: 100%;
   margin-left:30%;
   font-size: 16px;
-  font-family:'PF BeauSans W15 Light' ,'fallback-font';
-  font: url("pfbeausanspro-light.ttf")format("truetype");
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  /*font-family:'PF BeauSans W15 Light' ,'fallback-font';*/
+  /*font: url("pfbeausanspro-light.ttf")format("truetype");*/
+}
+.regular-font-lg{
+  font-size: 20px;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
 }
 .center{
   line-height: 20px;
   margin: auto;
-  left:-20%;
+  /*left:-20%;*/
+  vertical-align: baseline;
+  /*font: inherit;*/
   /*padding: 0;*/
-  padding: 15% 23%;
+  /*padding: 15% 23%;*/
 }
 .menu{
   height: 100px;
@@ -313,7 +323,7 @@ html, body{
 
 .menu-bg{
   top:120px;
-  height: 2450px;
+  height: 2235px;
   width: 3%;
   min-width: 30px;
   position: absolute;
@@ -431,6 +441,14 @@ html, body{
   position: absolute;
   height: 500px;
 }
+.biography-right{
+  top: 573px;
+  /*background-color: black;*/
+  left:48%;
+  width: 52%;
+  position: absolute;
+  height: 500px;
+}
 
 .gradient-text {
   font-family: 'PF BeauSans Pro Thin', sans-serif;
@@ -460,6 +478,20 @@ html, body{
   position: absolute;
   font-style: italic;
 
+
+}
+.expression-formblock{
+  font-family: 'PF BeauSans Pro Thin Italic';
+  padding-left:6%;
+  height: 60px;
+  font-size: 25px;
+  width: 500px;
+  color: rgba(0,0,0,0.6);
+  position: absolute;
+  font-style: italic;
+  display: table;
+  margin: 5px auto;
+
 }
 .copywriting{
   font-family: 'PF BeauSans Pro Thin Italic', sans-serif;
@@ -475,8 +507,8 @@ html, body{
 .biography-text-left{
   font-family: 'PF BeauSans Pro Regular', sans-serif;
   left:40%;
-  font-size: 18px;
-  width:60%;
+  font-size: 17px;
+  width:50%;
   color: rgba(0,0,0,0.6);
   position: absolute;
   /*font-style: italic;*/
@@ -484,10 +516,190 @@ html, body{
   margin-top:100px;
   line-height: 1.3;
 }
+.biography-text-right{
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  right:40%;
+  font-size: 17px;
+  width:60%;
+  color: rgba(0,0,0,0.6);
+  position: absolute;
+  margin-top:20px;
+  line-height: 1.3;
+}
+.blue-text{
+  color: rgba(14,70,117,1);
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 17px;
+}
+.biography-list li::before {
+  content: "•";
+  color: red;
+  margin-left: 5px;
+  margin-right: 5px;
 
-/*КУРСИВ
-font-weight: normal;
-font-style: italic;*/
+}
+.biography-list >li{
+  list-style: none;
+}
+
+.block-callus{
+  height: 745px;
+  margin-top:1073px;
+  left: 3%;
+  width: 100%;
+  background-image: url(form_background.png);
+
+}
+.form-callus{
+  /*top:60px;*/
+  height: 745px;
+  margin-left: 53%;
+  width: 42%;
+  margin-right: 5%;
+  /*background-color: black;*/
+}
+
+.form{
+
+  margin-top: 150px;
+  margin-left: 15%;
+  width: 400px;
+  /*background-color: black;*/
+}
+.form input{
+  width: 350px;
+  height: 30px;
+  line-height: 1.2;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.map{
+  top:1818px;
+  height: 377px;
+  background-color: black;
+  width: 97%;
+  margin-left: 3%;
+}
+
+#footer{
+  height: 120px;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  width: 97%;
+  top:2195px;
+  margin-left: 3%;
+}
+.copyrightblock{
+  height: 40px;
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  width: 97%;
+  top:2315px;
+  margin-left: 3%;
+}
+.copyright-text-left{
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  margin-left:15%;
+  width: 32%;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 17px;
+  position: absolute;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+}
+.copyright-text-right{
+  color: rgba(255, 255, 255, 1);
+  margin-left:60%;
+  text-align: right;
+  text-decoration: none;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 17px;
+  position: absolute;
+  margin-bottom: 0.5%;
+  margin-top: 0.5%;
+}
+.copyright-text-right > a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 17px;
+}
+
+.logo-footer{
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  background-color: rgba(0,0,0,0);
+  height: 100px;
+  width: 30%;
+  text-align:center;
+}
+
+.contactinfo-footer{
+  position: absolute;
+  /*background-color: rgba(0,0,0,0.1);*/
+  width: 20%;
+  height: 100%;
+  margin-left:30%;
+  font-size: 16px;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: rgba(255,255,255,1);
+  /*font-family:'PF BeauSans W15 Light' ,'fallback-font';*/
+  /*font: url("pfbeausanspro-light.ttf")format("truetype");*/
+}
+#primary-menu-footer {
+  font-style: bold;
+  background-color: rgba(255,255,255,1);
+  /*margin: 10 10;*/
+  top:100px;
+  margin-left:50%;
+  height: 20px;
+  /*width: 100%;*/
+  text-align: center;
+}
+#primary-menu-footer > ul{
+  padding: 0;
+  margin: 0;
+}
+#primary-menu-footer > ul > li{
+  /*position: absolute;*/
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 15px;
+}
+#primary-menu-footer > ul > li: last-child {
+  margin-right: 0;
+}
+#primary-menu-footer > ul > li a {
+  /*position: absolute;*/
+  color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  font-family: 'PF BeauSans Pro Bold', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: bold;
+
+}
+#primary-menu-footer > ul > li> i {
+  display: inline-block;
+  font: normal normal normal 12px/1 FontAwesome;
+  /*font-size: small;*/
+  text-rendering: auto;
+  /*text-rendering: auto;*/
+  -webkit-font-smoothing: antialiased;
+  transform: translate(0, 0);
+
+}
+
 @media screen and (max-width: 1440px) {
   .menu{
     height: 100px;
