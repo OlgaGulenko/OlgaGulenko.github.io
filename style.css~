@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-image:url(fon.jpg); background-repeat:repeat;font-family: 'Lato', sans-serif;}
+
+@font-face {
+    font-family: BeauSans; 
+    src: url(fonts/pfbeausanspro-bold.ttf);
+}
+
+/*
+.menu{position: absolute;height:36px;width: 100%; background-color:rgba(0,0,0,1);left:50%; margin-left:-50%;top:0px;font-family: 'Lato', sans-serif;}
+.nav a:hover { background-color:rgba(0,0,0,1);}
+.nav a {text-decoration:none;background-color:rgba(0,0,0,1);color: rgba(255,255,255,1);padding: 5px 10px; border-color:rgba(0,0,0,1); border:none;}
+.nav li {display:inline;list-style-type:none; font-family: 'Lato', sans-serif; font-weight:bold; font-size:25px;}	
+*/
+
+/*| Navigation |*/
+.menu{
+	position: fixed;
+   height:50px;
+   width: 100%; 
+   background-color:rgba(255,255,255,1);
+   left:50%; 
+   margin-left:-50%;
+   top:0px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 18px;
+   font-weight: bold;}
+.nav {
+	margin: 20px 0;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	*display:inline; /* ie7 */
+}
+.nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	color:rgba(0,0,0,1);
+	line-height: 100%;
+}
+.nav a:hover {
+	color: rgba(0,0,0,0.7);
+}
+.nav .current a {
+	background: #999;
+	color: #fff;
+	border-radius: 3px;
+}
+.nav.center ul {
+	text-align: center;
+}
+}
+.nav.center2 ul {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.menu{
+		position: absolute;
+	   height:50px;
+	   width: 100%; 
+	   background-color:rgba(255,255,255,1);
+	   left:50%;
+	   margin-left:-50%;
+	   top:0px;
+	   font-family: 'Poppins', sans-serif;
+	}
+	.nav {
+		position: relative;
+		min-height: 40px;
+	}	
+	.nav ul {
+		width: 180px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: solid 1px #aaa;
+		background: #FAFAFA url(images/icon-menu.png) no-repeat 10px 11px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	}
+	.nav li {
+		display: none; /* скрыть все <li> пункты */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* показывать только текущие активные <li> пункты */
+	}
+	.nav a {
+		display: block;
+		padding: 5px 5px 5px 32px;
+		text-align: left;
+	}
+	.nav .current a {
+		background: none;
+		color: rgba(0,0,0,1);
+	}
+
+	/* при наведении на пункты меню */
+	.nav ul:hover {
+		background-image: none;
+	}
+	.nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	.nav ul:hover .current {
+		background: url(images/icon-check.png) no-repeat 10px 7px;
+	}
+
+	/* адаптивное меню справа */
+	.nav.right ul {
+		left: auto;
+		right: 0;
+	}
+
+	/* адаптивное меню по центру */
+	.nav.center ul {
+		left: 50%;
+		margin-left: -90px;
+	}
+   .nav.center2 ul {
+	   left: 50%;
+		margin-left: -90px;
+   }
+
+	.CONTAINER{ 
+   height:400px;
+   width:100%; 
+   top: 50px; 
+   background-color:rgba(0,0,0,0.1);
+   text-align: center;
+   vertical-align: middle;
+}
+.container{ 
+   height:650px;
+   width:100%; 
+   background-color:rgba(0,0,0,1);
+   display: inline-block;
+   
+}
+	
+}
+
+.CONTAINER{ 
+   height:850px;
+   width:100%; 
+   top: 50px; 
+   background-color:rgba(0,0,0,0.1);
+   text-align: center;
+   vertical-align: middle;
+}
+.container{ 
+   height:650px;
+   width:100%; 
+   max-width:1280px; 
+   background-color:rgba(0,0,0,1);
+   display: inline-block;
+   background-image: url(sunny.jpg);
+ 
+}
+/*#wrapper { position: absolute; height: 100%; width: 100%; min-height: 600px; min-width: 900px; padding-top: 1px; top: 50px;}
+
+#slider { position: absolute; margin: 0px 0 0 0; height: 600px; overflow: hidden; background: url(img/ajax-loader.gif) center center no-repeat;}
+			
+#slider .slide { position: relative; display: none; height: 600px; float: left; background-position: center right; cursor: pointer; border-left: 1px solid #fff;}
+			
+#slider .slide:first-child { border:none;}
+
+#slider .slide.active {cursor: default;}
+			
+#slider .slide-block { position: absolute; left: 40px; bottom: 75px; display: inline-block; width: 435px; background-color: #fff; background-color: rgba(255,255,255, 0.8);	
+ 							  padding: 20px; font-size: 14px; color: #134B94; border: 1px solid #fff; overflow: hidden; border-radius: 4px;}
+			
+#slider .slide-block h4 { font-size: 36px; font-weight: bold; margin: 0 0 10px 0; line-height: 1;}
+				
+#slider .slide-block p {margin: 0;}
+*/
+.termweather{
+	position: absolute;
+   height:200px;
+   width:100%; 
+   background-color:rgba(0,0,0,0.1);
+   top: 650px;
+}
+   
