@@ -462,7 +462,7 @@ html, body{
   margin: 20px auto;
 }
 .gr{
-  left:36%;
+  left:35%;
   position: absolute;
   height: 60px;
   width: 40px;
@@ -530,6 +530,7 @@ html, body{
   color: rgba(14,70,117,1);
   font-family: 'PF BeauSans Pro Regular', sans-serif;
   font-size: 17px;
+  font-weight: bold;
 }
 .biography-list li::before {
   content: "•";
@@ -551,7 +552,7 @@ html, body{
 
 }
 .form-callus{
-  /*top:60px;*/
+  padding-top:60px;
   height: 745px;
   margin-left: 53%;
   width: 42%;
@@ -570,10 +571,28 @@ html, body{
   width: 350px;
   height: 30px;
   line-height: 1.2;
-  border-radius: 5px;
+  border-radius: 2px;
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+  padding-left: 15px;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 15px;
+}
+.button-enroll{
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+.button-enroll i{
+  color: rgba(255,255,255,1);
+
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin: auto;
+
 }
 .map{
   top:1818px;
