@@ -580,18 +580,82 @@ html, body{
   font-family: 'PF BeauSans Pro Regular', sans-serif;
   font-size: 15px;
 }
+.form select{
+  width: 367px;
+  height: 30px;
+  line-height: 1.2;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.3);
+  margin-top: 15px;
+  padding-left: 15px;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(0,0,0,0.6);
+}
+.spanform{
+  width: 367px;
+  height: 30px;
+  line-height: 1.2;
+  /*margin-top: 15px;*/
+  /*top:15px;*/
+  padding-top: 15px;
+  padding-left: 15px;
+  font-family: 'PF BeauSans Pro Regular', sans-serif;
+  font-size: 15px;
+}
+
+.btn-enroll-block{
+  height: 45px;
+  width: 350px;
+  text-align: center;
+  margin-top: 15px;
+  /*background-color: black;*/
+  padding-left: 7.5px;
+  padding-right:7.5px;
+}
+
 .button-enroll{
-    margin-top: 15px;
-    border-radius: 10px;
+    background-color: rgba(216,38,45,1);
+    margin-top: 0;
+    border-radius: 20px;
+    border-color: rgba(255,255,255,1);
+    font-family: 'PF BeauSans Pro Bbook', sans-serif;
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    color: white;
 
 }
 .button-enroll i{
   color: rgba(255,255,255,1);
-  height: 20px;
-  width: 20px;
+  height: 10px;
+  width: 30px;
   padding: 0;
   margin: auto;
+  font-style: normal;
 
+}
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+.fa {
+    display: inline-block;
+    /*font: normal normal 16px/1 PF BeauSans Pro Bbook;*/
+    font-family: 'PF BeauSans Pro Bbook', sans-serif;
+    font-size: large;
+    text-rendering: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 20px;
+    transform: translate(0, 0);
 }
 .map{
   top:1818px;
