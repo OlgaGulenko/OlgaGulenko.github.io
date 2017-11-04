@@ -6,7 +6,6 @@ html, body{
   padding: 0;
   margin: 0;
 }
-
 @font-face {
         font-family: 'PF BeauSans Pro Thin';
         src: url('../fonts/pfbeausanspro-thin.eot');
@@ -14,7 +13,16 @@ html, body{
         src: url('../fonts/pfbeausanspro-thin.eot?#iefix') format('embedded-opentype'),
         url('../fonts/pfbeausanspro-thin.woff') format('woff'),
         url('../fonts/pfbeausanspro-thin.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-thin.svg#PF BeauSans Pro Thin') format('svg');*/
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+        font-family: 'PF BeauSans Pro Thin';
+        src: url('../fonts/pfbeausanspro-thin.eot');
+        src: local('PF BeauSans Pro Thin');
+        src: url('../fonts/pfbeausanspro-thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/pfbeausanspro-thin.woff') format('woff'),
+        url('../fonts/pfbeausanspro-thin.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
 }
@@ -26,7 +34,6 @@ html, body{
         src: url('../fonts/pfbeausanspro-italic.eot?#iefix') format('embedded-opentype'),
         url('../fonts/pfbeausanspro-italic.woff') format('woff'),
         url('../fonts/pfbeausanspro-italic.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-italic.svg#PF BeauSans Pro Italic') format('svg');*/
         font-weight: normal;
         font-style: normal;
 }
@@ -37,7 +44,6 @@ html, body{
         src: url('../fonts/pfbeausanspro-bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/pfbeausanspro-bold.woff') format('woff'),
         url('../fonts/pfbeausanspro-bold.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-bold.svg#PF BeauSans Pro Bold') format('svg');*/
         font-weight: normal;
         font-style: normal;
 }
@@ -48,18 +54,13 @@ html, body{
         src: url('../fonts/pfbeausanspro-book.eot?#iefix') format('embedded-opentype'),
         url('../fonts/pfbeausanspro-book.woff') format('woff'),
         url('../fonts/pfbeausanspro-book.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-book.svg#PF BeauSans Pro Bbook') format('svg');*/
         font-weight: normal;
         font-style: normal;
 }
 @font-face {
         font-family: 'PF BeauSans Pro Thin Italic';
-        /*src: url('../fonts/pfbeausanspro-thinital.eot');*/
         src: local('PF BeauSans Pro Thin Italic');
         src: url('../fonts/pfbeausanspro-thinital.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-thinital.svg#PF BeauSans Pro Thin Italic') format('svg');*/
-        /*url('../fonts/pfbeausanspro-thinital.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/pfbeausanspro-thinital.woff') format('woff'),*/
         font-weight: normal;
         font-style: normal;
 }
@@ -70,7 +71,6 @@ html, body{
         src: url('../fonts/pfbeausanspro-reg.eot?#iefix') format('embedded-opentype'),
         url('../fonts/pfbeausanspro-reg.woff') format('woff'),
         url('../fonts/pfbeausanspro-reg.ttf') format('truetype');
-        /*url('../fonts/pfbeausanspro-reg.svg#PF BeauSans Pro Regular') format('svg');*/
         font-weight: normal;
         font-style: normal;
 }
