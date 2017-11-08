@@ -6,7 +6,7 @@
 	<title>Heart life hospital</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <body>
 	<div id="header">
@@ -21,105 +21,97 @@
 				<span> г. Киев, ул. Амосова, 6</span>
 			</div>
 		</div>
-		<div class="menu">
-
-				<div class="icon-register"><img src="i_write.png"/></div>
-				<div class="register-in-reception">Записаться на прием</div>
-				<div class="icon-call-back"><img src="i_phone.png"/></div>
-				<div class="call-back">Обратный звонок</div>
-				<div class="icon-write-us"><img src="i_airpl.png"/></div>
-				<div class="write-us">Написать нам</div>
-				<div class="search"><img src="i_search.png"/></div>
-				<div class="len-en">En</div>
-				<div class="len-ukr">Укр</div>
-				<div class="len-ru">Рус</div>
-
-		</div>
+		<nav class="menu">
+			<a href="#" class="register-in-reception"><img src="i_write.png" class="leftimg" />Записаться на прием</a>
+			<a href="#" class="call-back"><img src="i_phone.png" class="leftimg" />Обратный звонок</a>
+			<a href="#" class="write-us"><img src="i_airpl.png" class="leftimg" />Написать нам</a>
+			<a href="#" class="search"><img src="i_search.png" class="leftimg" /></a>
+			<a href="#" class="len-en">En</a>
+			<a href="#" class="len-ukr">Укр</a>
+			<a href="#" class="len-ru">Рус</a>
+		</nav>
 		<div id="primary-menu">
 			<ul>
-				<li>
-					<a href="#">О клинике</a>
-					<i class="fa fa-chevron-down" aria-hidden="true"></i>
-				</li>
-				<li>
-					<a href="#">Врачи</a>
-					<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
-				</li>
-				<li>
-					<a href="#">Цены</a>
-					<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
-				</li>
-				<li>
-					<a href="#">Услуги</a>
-					<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
-				</li>
-				<li>
-					<a href="#">Новости</a>
-					<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
-				</li>
-				<li>
-					<a href="#">Контакты</a>
-					<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i>
-				</li>
+				<li><a href="#">О клинике</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true" ></i></li>
+				<li><a href="#">Врачи</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></li>
+				<li><a href="#">Цены</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></li>
+				<li><a href="#">Услуги</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></li>
+				<li><a href="#">Новости</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></li>
+				<li><a href="#">Контакты</a><i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></li>
 			</ul>
 		</div>
 	</div>
-	<div class="menu-bg"></div>
+	<div class="menu-bg">
+		<h3 class="back-fulllist">Услуги</h3>
+		<nav class="sidebar">
+			<a href="#"><i class="fa fa-heartbeat fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-medkit fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#"><i class="fa fa-hospital-o fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#" class=""><i class="fa fa-commenting-o fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#" class=""><i class="fa fa-list fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#" class=""><i class="fa fa-list fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<br class ="brmain"/>
+			<a href="#" class=""><i class="fa fa-facebook-square fa-3x blocksidebar" aria-hidden="true"></i></i></a>
+			<a href="#" class=""><i class="fa fa-youtube-play fa-3x blocksidebar" aria-hidden="true"></i></a>
+			<a href="#" class=""><i class="fa fa-instagram fa-3x blocksidebar" aria-hidden="true"></i></a>
+		</nav>
+	</div>
 	<div class="doc-photo">
-		<img src="ann_petrova_smaller.jpg" width="100%"/>
+		<img class="doc-photo-mob" src="ann_petrova_smaller.jpg" width="100%"/>
 	</div>
 	<div class="doc-info">
-		<p class="doc-name">Петрова<br/>Анна Семёновна</p><br/>
-		<p class="doc-description-bold">Врач высшей категории<span class="colortext"> | </span> Стаж работы: 26 лет</p><br/>
-		<span class="doc-description-bold-educ">Образование:</span>
-		<span class="doc-description-italic">Киевский национальный медицинский</span><br/>
-		<span class="doc-description-italic-ways">университет</span>
-		<p class="doc-description-bold-spec">Врач кардиохирург</p>
-		<span class="doc-description-bold-spec">Приоритетные направления работы:</span>
-		<span class="doc-description-italic">Ишемическая болезнь, </span><br/>
-		<span class="doc-description-italic-ways">Инфаркт Миокарда, Пролапс митрального клапана</span><br/>
-		<div class="back-to-fulllist">
-			<span class="arrow-back"><img src="arrow_left.png" height="16px" /></span>
-			<span class="back-fulllist">Вернуться к полному списку врачей</span>
-		</div>
+		<header class="doc-name">Петрова<br/>Анна Семёновна</header>
+		<main class="doc-description-bold">
+			Врач высшей категории<span class="redtext"> | </span> Стаж работы: 26 лет<br class ="brmain"/>
+			Образование: <i class="doc-description-italic">Киевский национальный медицинский</i><br class="br-i"/>
+			<i class="doc-description-italic">университет</i><br class ="brmain"/>
+			Врач кардиохирург<br class ="brmain"/>
+			Приоритетные направления работы:<i class="doc-description-italic">Ишемическая болезнь,</i><br class ="br-i"/>
+			<i class="doc-description-italic">Инфаркт Миокарда, Пролапс митрального клапана</i><br class="br-large"/>
+			<a href="#"><img src="arrow_left.png" height="16px" /></a>
+			<i class="back-fulllist">Вернуться к полному списку врачей</i>
+		</main>
 	</div>
 	<div class="biography-left">
-		<p class="gradient-text">Биография</p>
-		<div class="gr"><span class="gradient-text">” </span></div>
-		<!-- <div class="gr"><span class="gradient-text">”</span></div> -->
-		<span class="expression">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span><br/>
-		<span class="copywriting">© Aristotel</span>
-		<span class="biography-text-left">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+		<header class="gradient-text">Биография</header>
+		<section class="b-section-left">
+			<i class="gradient-text gr">”</i>
+			<i class="expression">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+			<br class ="br-i"/><br class ="br-i"/>
+			<i class="copywriting">© Aristotel</i>
+			</i><br class ="br-i"/><br class ="br-i"/><br class ="br-i"/><br class ="br-i"/>
+		</section>
+		<section class="biography-text-left">
+			Lorem Ipsum is simply dummy text of the printing and typeset-ting industry. Lorem Ipsum has been the industry's
 			standard dummy text ever since the 1500s, when an unknown
 			printer took a galley of type and scrambled it to make a
 			type specimen book.Lorem Ipsum is simply dummy text of
 			the printing and typesetting industry. Lorem Ipsum has been
 			the industry's
-		</span>
+		</section>
 	</div>
 	<div class="biography-right">
-		<span class="biography-text-right">
+		<section class="biography-text-right">
 			Lorem Ipsum is simply dummy text of the printing and typeset-<br/>
 			ting industry. Lorem Ipsum has been the industry's standard dummy text
 			ever since the 1500s, when an unknown printer took a galley of type and
 			scrambled it to make a type specimen book.<br/>
 			<h4>It has survived not only five centuries:</h4>
-			<span class="blue-text">1969</span> - but also the leap into electronic typesetting, remaining<br/>
-			<span class="blue-text">1969</span> - but also the leap into electronic typesetting, remaining
+			<i class="blue-text">1969</i> - but also the leap into electronic typesetting, remaining<br/>
+			<i class="blue-text">1969</i> - but also the leap into electronic typesetting, remaining
 			but also the leap into electronic typesetting, remaining es<br/>
 			<h4>It has survived not only five centuries:</h4>
 			<ul class="biography-list">
 				<li>but also the leap into electronic typesetting, remaining es</li>
 				<li>but also the leap into electronic typesetting, remaining but also the<br/>
 					 leap into electronic typesetting, remaining es</li>
-		</ul>
-		</span>
+			</ul>
+		</section>
 	</div>
 	<div class="block-callus">
 		<div class="form-callus">
-			<span class="gradient-text">Записаться на прием</span>
-			<span class="expression-formblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+			<header class="gradient-text">Записаться на прием</header>
+			<section class="expression-formblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</section>
 			<form action="#" class="form">
 				<input class="inputform" type="text"  placeholder="Имя">
 				<input class="inputform" type="tel" placeholder="Номер телелефона">
@@ -137,7 +129,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="map"><img src="map_health_life.png" width="100%"/></div>
+	<div class="map"><img src="map_health_life.png" height="100%"/></div>
 	<div id="footer">
 		<div class="logo-footer">
 			<img src="logo_footer.png" height="80%"/>
@@ -148,19 +140,17 @@
 				<span> г. Киев, ул. Амосова, 6</span>
 			</div>
 		</div>
-		<!-- <div id="primary-menu-footer">
-			<ul>
-				<li><a href="#">О клинике</a><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-				<li><a href="#">Врачи</a><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-				<li><a href="#">Цены</a><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-				<li><a href="#">Услуги</a><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-				<li><a href="#">Новости</a><i class="fa fa-chevron-down" aria-hidden="true"></li>
-				<li><a href="#">Контакты</a><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
-			</ul>
-		</div> -->
+		<nav id="primary-menu-footer">
+			<a href="#">О клинике<i class="fa fa-chevron-down fa-lg" aria-hidden="true" ></i></a>
+			<a href="#">Врачи<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+			<a href="#">Цены<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+			<a href="#">Услуги<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+			<a href="#">Новости<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+			<a href="#">Контакты<i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
+		</nav>
 	</div>
 	<div class="copyrightblock">
-		<span class="copyright-text-left">© 2017. Heart life hospital.</span>
+		<section class="copyright-text-left">© 2017. Heart life hospital.</section>
 		<span class="copyright-text-right"> Разработка: <a href="#" >Medmarkeriing</a></span>
 	</div>
 </body>
