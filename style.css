@@ -310,6 +310,12 @@ html, body{
 .imgheight{
   height: 80%;
 }
+.imgheightlarge{
+  width: 100%;
+}
+.imgheightsmall{
+  height:16px;
+}
 .redtext{
   color:red;
   text-decoration: none;
