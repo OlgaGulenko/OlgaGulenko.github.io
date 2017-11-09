@@ -307,6 +307,9 @@ html, body{
 .br-large{
   line-height: 100px;
 }
+.imgheight{
+  height: 80%;
+}
 .redtext{
   color:red;
   text-decoration: none;
