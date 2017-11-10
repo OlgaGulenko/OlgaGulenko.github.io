@@ -319,6 +319,7 @@ html, body{
 }
 .smalltext{
   font-size: 5px;
+  color: rgba(0,0,0,0);
 }
 .redtext{
   color:red;
