@@ -375,7 +375,7 @@ html, body{
   font-size: 17px;
   color: rgba(0,0,0,0.6);
   position: absolute;
-  margin: -25px 0 0 42%;
+  margin: -60px 0 0 42%;
   line-height: 1.3;
 }
 .expression-formblock{
@@ -408,7 +408,7 @@ html, body{
 }
 .biography-text-right{
   font-family: 'PF BeauSans Pro Regular', sans-serif;
-  margin: 20px 40% 0 0;
+  margin: -10px 40% 0 0;
   font-size: 17px;
   color: rgba(0,0,0,0.6);
   position: absolute;
