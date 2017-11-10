@@ -311,8 +311,8 @@ html, body{
   height: 80%;
 }
 
-.imgheightlarge{
-  height: 100%;
+.imgwidthlarge{
+  width: 100%;
 }
 .imgheightsmall{
   height:16px;
@@ -371,7 +371,7 @@ html, body{
   font-size: 17px;
   color: rgba(0,0,0,0.6);
   position: absolute;
-  margin: 0 0 0 42%;
+  margin: -25px 0 0 42%;
   line-height: 1.3;
 }
 .expression-formblock{
