@@ -72,7 +72,6 @@ html, body{
   margin-right: 0;
   font-size: 15px;
   font-family:'PF BeauSans W15 Light' ,'fallback-font';
-  font: url("pfbeausanspro-light.ttf")format("truetype");
 }
 
 .contactinfo{
@@ -219,7 +218,6 @@ html, body{
   transform: translate(0, 0);
 
 }
-
 .menu-bg{
   top:120px;
   height: 2235px;
@@ -535,7 +533,6 @@ html, body{
 
 .fa {
     display: inline-block;
-    /*font: normal normal 16px/1 PF BeauSans Pro Bbook;*/
     font-family: 'PF BeauSans Pro Bbook', sans-serif;
     font-size: large;
     text-rendering: inherit;
@@ -644,7 +641,6 @@ html, body{
     height: 100px;
     width: 50%;
     margin-left:50%;
-    /*background-color: rgba(0,0,0,1);*/
   }
   .icon-register{
     position: absolute;
@@ -709,7 +705,6 @@ html, body{
     margin-top: 35px;
     font-size: 12px;
     margin-bottom: 35px;
-    /*text-align: center;*/
     color: rgba(0,0,0,0.7);
     padding: 5px;
   }
@@ -735,7 +730,6 @@ html, body{
     padding: 5px;
     font-size: 16px;
     font-family:'PF BeauSans W15 Light' ,'fallback-font';
-    font: url("pfbeausanspro-light.ttf")format("truetype");
     color: rgba(0,0,0,0.7);
   }
 
@@ -751,7 +745,6 @@ html, body{
     padding: 5px;
     font-size: 16px;
     font-family:'PF BeauSans W15 Light' ,'fallback-font';
-    font: url("pfbeausanspro-light.ttf")format("truetype");
     color: rgba(0,0,0,0.7);
   }
 
@@ -767,7 +760,6 @@ html, body{
     padding: 5px;
     font-size: 16px;
     font-family:'PF BeauSans W15 Light' ,'fallback-font';
-    font: url("pfbeausanspro-light.ttf")format("truetype");
     color: rgba(0,0,0,0.7);
   }
 
@@ -796,3 +788,76 @@ html, body{
     width: auto;
   }
 }
+/*@media screen and (max-width: 600px) {
+
+  #header{
+    height: 600px;
+    position: absolute;
+    width: 100%;
+    top:0px;
+
+  }
+  .logo{
+    margin-left: 0;
+    height: 90px;
+    width: 100%;
+    text-align:center;
+  }
+  .imgheight{
+    height: 90%;
+    margin-left: 20px;
+    float:left;
+
+  }
+  .logodescription{
+    display: block;
+    margin: 0;
+    position: absolute;
+    top:80px;
+    width: 100%;
+    left: 0%;
+    text-align:center;
+    height: 15px;
+    font-size: 15px;
+    font-family:'PF BeauSans W15 Light' ,'fallback-font';
+    z-index: 2344;
+  }
+
+  .contactinfo{
+    display: block;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top:95px;
+    margin:  0 0 0 0;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 15px;
+    font-family: 'PF BeauSans Pro Regular', sans-serif;
+    text-align: center;
+  }
+  .regular-font-lg{
+    margin: 2px 0 0 0;
+    font-size: 16px;
+    font-family: 'PF BeauSans Pro Regular', sans-serif;
+  }
+  .center{
+    float: inherit;
+    line-height: 10px;
+    margin: auto;
+    vertical-align: baseline;
+  }
+  .menu{
+    height: 100px;
+    width: 50%;
+    margin-left:50%;
+    text-decoration: none;
+  }
+  .leftimg {
+   float:left;
+   margin: 0px 0px 0px 0px;
+  }
+  .doc-photo-mob{
+    height:100%;
+    width: auto;
+  }
+}*/
